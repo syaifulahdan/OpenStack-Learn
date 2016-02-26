@@ -1,4 +1,3 @@
-# OpenStack-Learn
 <div class="section" id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
 <p>The <a class="reference internal" href="common/glossary.html#term-openstack"><em class="xref std std-term">OpenStack</em></a> project is an open source cloud computing platform that
