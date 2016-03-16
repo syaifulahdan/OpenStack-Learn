@@ -1,5 +1,5 @@
 # OpenStack-Learn
-Generating a new SSH key and adding it to the ssh-agent
+###Generating a new SSH key and adding it to the ssh-agent
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$<b> ssh-keygen -t rsa -b 4096 -C syaifulahdan@gmail.com</b>
 Generating public/private rsa key pair.
@@ -23,4 +23,16 @@ The key's randomart image is:
 |                 |
 +-----------------+
 bertopeng17@bertopeng17-ThinkPad-T520:~$
+</pre>
+
+###Checking for existing SSH keys
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>ls -al ~/.ssh</b>
+total 20
+drwx------  2 bertopeng17 bertopeng17 4096 Mar 17 02:34 .
+drwxr-xr-x 36 bertopeng17 bertopeng17 4096 Mar 17 02:33 ..
+-rw-------  1 bertopeng17 bertopeng17 3326 Mar 17 02:34 id_rsa
+-rw-r--r--  1 bertopeng17 bertopeng17  748 Mar 17 02:34 id_rsa.pub
+-rw-r--r--  1 bertopeng17 bertopeng17  888 Mar 17 02:07 known_hosts
+bertopeng17@bertopeng17-ThinkPad-T520:~$ 
 </pre>
